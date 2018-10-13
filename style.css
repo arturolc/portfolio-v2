@@ -1,4 +1,5 @@
 /* NAVIGATION BAR */
+
 .nav, .nav-item, #brand, #sectionA {
     font-family: "Familiar Pro", "Bold";
     color: white;
@@ -10,8 +11,10 @@
 }
 
 /* SECTION A */
+
 #sectionA {
     margin-bottom: 0;
+    background-color: rgb(73, 104, 155);
 }
 
 .jumbotron {
@@ -19,10 +22,12 @@
 }
 
 /* SECTION B */
+
 #section-B {
     background-color: brown;
     padding: 5%;
-  }
+    font-family: "Consolas", "Regular";
+}
 
 #top {
     background-color: rgb(225, 224, 222);
@@ -33,32 +38,31 @@
 }
 
 #bottom {
-    height: 500px;  
-    background-color: rgb(72, 69, 69);
+    height: 800px;
+    background-color: rgb(41, 41, 41);
     color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-  
+
 li {
-display: inline;
+    display: inline;
 }
 
 ul {
-padding: 0;
+    padding: 0;
 }
 
 .dot {
-height: 10px;
-width: 10px;
-background-color: #bbb;
-border-radius: 50px;
-display: inline-block;
-
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50px;
+    display: inline-block;
 }
 
 #redDot {
-    background-color: rgb(252,96,92);
+    background-color: rgb(252, 96, 92);
 }
 
 #yellowDot {
@@ -69,7 +73,54 @@ display: inline-block;
     background-color: rgb(52, 199, 73);
 }
 
+.indent {
+    margin-left: 2em;
+}
+
+.keyRed {
+    color: rgb(204, 51, 102);
+    font-weight: bold;
+}
+
+.keyBlue {
+    color: rgb(18, 144, 195);
+    font-weight: bold;
+}
+
+.keyBlueText {
+    color: rgb(102, 225, 248);
+}
+
+.keyPurple {
+    color: rgb(121, 171, 255);
+}
+
+.keyGreen {
+    color: rgb(30, 181, 64);
+    font-weight: bold;
+}
+
+.keyGreenText {
+    color: rgb(167, 236, 36);
+}
+
+.keyString {
+    color: rgb(23, 198, 163);
+}
+
+.keyInt {
+    color: rgb(104, 151, 187);
+}
+
+.keyOrangeText {
+    color: rgb(223, 191, 38);
+}
+
+.keyOrange {
+    color: rgb(237, 127, 72);
+}
 /* SECTION C */
+
 #section-C {
     padding: 5%;
 }
@@ -85,8 +136,5 @@ footer {
 #githubIcon {
     width: 150px;
 }
-  
 
-  
-
-  
+/* ANIMATION */
