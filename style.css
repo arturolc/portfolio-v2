@@ -1,0 +1,92 @@
+/* NAVIGATION BAR */
+.nav, .nav-item, #brand, #sectionA {
+    font-family: "Familiar Pro", "Bold";
+    color: white;
+    text-transform: uppercase;
+}
+
+#profile, #hash {
+    max-width: 25%;
+}
+
+/* SECTION A */
+#sectionA {
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+/* SECTION B */
+#section-B {
+    background-color: brown;
+    padding: 5%;
+  }
+
+#top {
+    background-color: rgb(225, 224, 222);
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 22px;
+}
+
+#bottom {
+    height: 500px;  
+    background-color: rgb(72, 69, 69);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+li {
+display: inline;
+}
+
+ul {
+padding: 0;
+}
+
+.dot {
+height: 10px;
+width: 10px;
+background-color: #bbb;
+border-radius: 50px;
+display: inline-block;
+
+}
+
+#redDot {
+    background-color: rgb(252,96,92);
+}
+
+#yellowDot {
+    background-color: rgb(253, 189, 64);
+}
+
+#greenDot {
+    background-color: rgb(52, 199, 73);
+}
+
+/* SECTION C */
+#section-C {
+    padding: 5%;
+}
+
+footer {
+    background-color: rgb(72, 69, 69);
+}
+
+#linkedinIcon {
+    width: 100px;
+}
+
+#githubIcon {
+    width: 150px;
+}
+  
+
+  
+
+  
